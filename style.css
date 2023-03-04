@@ -13,7 +13,7 @@ body {
     background: #3f3f3f;
   }
   .nav {
-    background-color: grey;
+    background-color: #3f3f3f;
     height: 80px;
     display: flex;
     justify-content: center;
