@@ -1,7 +1,7 @@
 body {
-    background-color: #3f3f3f;
+    background-color: darkgray;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .nav_container {
@@ -10,27 +10,27 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #3f3f3f;
+    background: darkgrey;
   }
   .nav {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .Logo {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     width: 200px;
   }
   span{
-    color: #fff000;
+    color: white;
     text-transform: capitalize;
     font-weight: 900;
     letter-spacing: 3px;
   }
   .routes {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     flex: 1;
   }
   ul{
@@ -40,43 +40,40 @@ body {
     display: flex;
   }
   nav ul li a{
-   font-family: 'Open Sans', sans-serif;
-    height: 40px;
-    line-height: 42px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 35px;
+    line-height: 32px;
     margin: 3px;
-    padding: 0px 16px;
+    padding: 0px 12px;
     display: flex;
     font-size: 0.7rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 500;
     color: #fff;
     letter-spacing: 1px;
-    transition: 0.6 ease;
   }
   a{
-    text-decoration: none;
+    text-decoration: dotted;
   }
   .socialicons {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     width: 200px;
   }
-  div .socialicons a{
-    padding: 0px 10px;
-  }
+ 
   
   .home_container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     height: calc(100vh - 80px);
-    background: #3f3f3f;
+    background: darkgrey;
     position: relative;
   }
   .home_section {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
   }
   .circle_wrapper {
-    /* background-color: blue; */
+    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -85,13 +82,13 @@ body {
     width: 100%;
   }
   .circle {
-    background-color: #2a2a2a;
-    width: 40%;
-    padding-bottom: 40%;
+    background-color: #545454;
+    width: 35%;
+    padding-bottom: 35%;
     border-radius: 50%;
   }
   .info_wrapper {
-    /* background-color: green; */
+    
     position: absolute;
     width: 100%;
     height: 100%;
@@ -115,13 +112,13 @@ body {
     letter-spacing: 6px;
   }
   h1{
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
   }
   
   .image_wrapper {
-    /* background-color: brown; */
+   
     position: absolute;
     width: 100%;
     height: 100%;
@@ -129,16 +126,17 @@ body {
     justify-content: center;
     align-items: flex-end;
   }
+  /* imgdiv */
   .image {
     width: 35%;
     height: 88%;
   }
   div .image img{
-    height: 600px;
-    width: 420px;
+    height: 500px;
+    width: 380px;
   }
   .services_wrapper {
-    /* background-color: teal; */
+    
     position: absolute;
     width: 100%;
     height: 100%;
@@ -147,7 +145,7 @@ body {
     align-items: center;
   }
   .services {
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     width: 25%;
     min-height: 50%;
     color: #fff;
@@ -159,11 +157,8 @@ body {
   div h4{
     color: #fff000;
   }
-  .line{
-    height: 5px;
-    width: 170px;
-    background-color: #fff000;
-  }
+  /* jsjhsdkdhjkds */
+  
   .parent {
     position: relative;
     margin-left: 10%;
@@ -178,8 +173,8 @@ body {
     margin-bottom: -50px;
   }
   .parent div{
-    background-color: #3f3f3f;
-    border: 6px solid #3f3f3f;
+    background-color: black;
+    border: 1px dotted black;
   }
   .parent div a{
     color: white;
@@ -243,7 +238,7 @@ body {
   }
   
   .experience_container {
-    background-color: #2a2a2a;
+    background-color: black;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -251,17 +246,17 @@ body {
   }
   
   .experience_left_side {
-    background-color: #2a2a2a;
+    background-color: black;
     flex: 1;
   }
   
-  .experience_right_side {
-    background-color: #2a2a2a;
+  .experience_right {
+    background-color: black;
     flex: 1;
   }
   
   .project_wrapper {
-    background-color: #2a2a2a;
+    background-color: black;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -278,7 +273,7 @@ body {
   }
   
   .project_info_wrapper {
-    background-color: #2a2a2a;
+    background-color: black;
     flex: 1;
     padding: 0 20px;
   }
@@ -289,13 +284,7 @@ body {
     font-size: 25px;
   }
   
-  .project_info_subtitle {
-    color: aliceblue;
-    background-color: #2a2a2a;
-    font-size: 11px;
-    margin: -8px;
-    margin-left: 5px;
-  }
+ 
   
   .project_seprator {
     background-color: white;
@@ -313,48 +302,40 @@ body {
   }
   .bot-wrapper{
     display: flex;
-    justify-content: space-evenly;
     width: 80%;
     margin-left: 10%;
-    background-color: #3f3f3f;
+    background-color: darkgrey;
     margin-top: -120px;
   
   }
-  .ui-ux-inner{
-    background-color: #2a2a2a;
-    width: 70px;
-    height: 68px;
-    border-radius: 50%;
-  }
+  
   .ui-ux{
-   height: 250px;
-   width: 380px;
-   background-color: #545454;
+   height: 350px;
+   width: 480px;
+   background-color: darkgrey;
   }
   .web{
-    height: 250px;
-    width: 380px;
-    background-color: #545454;
+    height: 350px;
+    width: 480px;
+    background-color: darkgrey;
   }
   .mobile{
-    height: 250px;
-    width: 380px;
-    background-color: #545454;
+    height: 350px;
+    width: 480px;
+    background-color: darkgrey;
   }
   div .ui-ux-inner img{
-    height: 50px;
-    width: 55px;
+    height: 70px;
+    width: 65px;
     padding: 10px;
   }
   div .h1-color{
-    color: #fff000;
+    color: aliceblue;
   }
   div .p-color{
     color: #fff;
   }
-  .inner-padding{
-    padding: 10px;
-  }
+  
   
   
   
