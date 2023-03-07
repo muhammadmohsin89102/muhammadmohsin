@@ -72,21 +72,7 @@ body {
   .home_section {
     background-color: darkgrey;
   }
-  .circle_wrapper {
-    
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-  }
-  .circle {
-    background-color: #545454;
-    width: 35%;
-    padding-bottom: 35%;
-    border-radius: 50%;
-  }
+ 
   .info_wrapper {
     
     position: absolute;
